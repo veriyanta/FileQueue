@@ -173,3 +173,7 @@ Tests/FileQueueCoreTests/  scheduler, engine, executor, rename and real-disk-ima
 - The Command Line Tools SDK defines SwiftUI's `@State` as a macro whose plugin only ships with Xcode, so the app uses `@ViewState` (an alias for the same property wrapper — see `ViewState.swift`). It works with full Xcode too.
 - The real-disk tests attach small disk images with `hdiutil`; they're skipped where that isn't available.
 - Not sandboxed (Developer ID-style). File access goes through the executor and disk resolver, so adding security-scoped bookmarks for a Mac App Store build is contained to those pieces.
+
+## License
+
+MIT — see [LICENSE](LICENSE).
